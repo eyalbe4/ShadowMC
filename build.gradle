@@ -106,6 +106,10 @@ curseforge {
 
 reobf { shadowJar { mappingType = 'SEARGE' } }
 tasks.reobfShadowJar.mustRunAfter shadowJar
+
+
+artifactoryPublish.skip = true
+
 /*
 afterEvaluate {
 	tasks.curseforge226780.dependsOn reobfShadowJar
