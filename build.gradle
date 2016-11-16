@@ -12,6 +12,8 @@ buildscript {
 	}
 }
 
+apply plugin: 'java'
+
 plugins {
 	id "maven"
 	id "com.github.johnrengelman.shadow" version "1.2.3"
